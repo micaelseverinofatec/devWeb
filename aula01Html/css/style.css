@@ -1,0 +1,6 @@
+/* Elementos globais */
+@import url("global/header.css");
+@import url("global/global.css");
+
+/* Elementos especificos */
+@import url("main/main.css");
