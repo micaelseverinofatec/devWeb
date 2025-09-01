@@ -1,0 +1,22 @@
+main div section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 24px;
+}
+
+main div section h1 {
+    max-width: 65ch;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+main div section p {
+    max-width: 65ch;
+    line-height: 1.5;
+}
+
+main div section nav ul li a p {
+    font-size: 14px;
+    max-width: 40ch;
+}
