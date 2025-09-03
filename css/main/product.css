@@ -1,0 +1,47 @@
+body {
+    background-color: #000;
+}
+
+.product-bg main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 700px;
+    box-sizing: border-box;
+}
+
+.product-bg main button {
+    grid-column: 1 / -1;
+    width: 300px;
+    justify-self: center;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    font-weight: 700;
+    transition: 0.1s;
+}
+
+.product-bg main button:hover {
+    cursor: pointer;
+    transition: 0.1s;
+    background-color: #000;
+    color: #fff;
+}
+
+.product-bg main img {
+    max-width: 140px;
+}
+
+.product-bg main div {
+    display: grid;
+    gap: 24px;
+}
+
+.product-bg main div p {
+    max-width: 50ch;
+    color: #fff;
+    line-height: 1.5;
+}
